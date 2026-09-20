@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VeloCopy support and privacy policy.">
+  <title>VeloCopy Support and Privacy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+      color: #172033;
+      background: #f5f7fb;
+    }
+    body { margin: 0; }
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin: 16px 0 36px;
+    }
+    a { color: #126ed1; }
+    h1 {
+      font-size: 32px;
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+    h2 {
+      font-size: 22px;
+      margin: 42px 0 12px;
+    }
+    h3 {
+      font-size: 17px;
+      margin: 24px 0 8px;
+    }
+    p, li { font-size: 16px; }
+    .effective { color: #5e687b; }
+    .note {
+      padding: 14px 16px;
+      background: #fff;
+      border: 1px solid #dce2ee;
+      border-radius: 8px;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid #d9dfeb;
+      margin: 42px 0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color: #f1f4fa;
+        background: #141822;
+      }
+      a { color: #79b8ff; }
+      .effective { color: #b7c0d1; }
+      .note {
+        background: #1d2330;
+        border-color: #354057;
+      }
+      hr { border-color: #354057; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>VeloCopy Support and Privacy</h1>
+    <p>VeloCopy copies large local file batches between folders, SD cards, and external drives on Mac, then verifies the destination before reporting completion.</p>
+    <nav>
+      <a href="#support-en">English Support</a>
+      <a href="#privacy-en">English Privacy Policy</a>
+      <a href="#support-zh">中文支持</a>
+      <a href="#privacy-zh">中文隐私政策</a>
+    </nav>
+
+    <section id="support-en">
+      <h2>English Support</h2>
+      <h3>Quick Start</h3>
+      <ol>
+        <li>Select one or more source files or folders, including media on an SD card or external drive.</li>
+        <li>Select a destination folder or drive.</li>
+        <li>Start the copy and follow file count, overall progress, speed, and estimated time remaining.</li>
+        <li>Wait for SHA-256 verification to finish before disconnecting either drive.</li>
+      </ol>
+
+      <h3>Safely Eject a Source Drive</h3>
+      <p>When the source is a removable volume, you can enable “Eject source after verification.” VeloCopy requests a safe eject only after copying and verification complete successfully.</p>
+
+      <h3>Destination Conflicts</h3>
+      <p>If the destination contains a same-name file with different contents, VeloCopy stops instead of silently overwriting it. Review the destination and start again after resolving the conflict.</p>
+
+      <h3>Contact Support</h3>
+      <p class="note">Email <a href="mailto:fengqve@qq.com">fengqve@qq.com</a>. Include the VeloCopy version and build, macOS version, Mac model, source and destination drive types, the screen where the issue occurred, and reproduction steps. Do not attach private files unless they are necessary and safe to share.</p>
+    </section>
+
+    <section id="privacy-en">
+      <h2>English Privacy Policy</h2>
+      <p class="effective">Effective date: September 21, 2026</p>
+      <p>VeloCopy is designed without an account, advertising SDK, analytics SDK, tracking SDK, or VeloCopy-operated backend.</p>
+
+      <h3>Files and Folder Access</h3>
+      <p>VeloCopy accesses only files, folders, and removable volumes that you explicitly select or pass to it through supported Finder actions. This access is used to perform the copy, verify destination files, show file information, and optionally request a safe eject of the selected source volume.</p>
+
+      <h3>Data Stored on Your Mac</h3>
+      <p>VeloCopy may store local security-scoped bookmarks needed to continue a Finder copy-and-paste action. These bookmarks identify user-selected file locations and remain in the app's local storage. VeloCopy does not upload them.</p>
+
+      <h3>Data Collection</h3>
+      <p>VeloCopy does not collect, transmit, sell, or share your file contents, file names, folder paths, copy activity, or personal information. Copying and SHA-256 verification run locally on your Mac.</p>
+
+      <h3>Your Controls</h3>
+      <p>You choose every source and destination. You can cancel an active copy, disconnect a volume after the app reports that it is safe, and delete VeloCopy to remove its local app data.</p>
+
+      <h3>Contact</h3>
+      <p>For privacy questions, email <a href="mailto:fengqve@qq.com">fengqve@qq.com</a>.</p>
+    </section>
+
+    <hr>
+
+    <section id="support-zh">
+      <h2>中文支持</h2>
+      <h3>快速使用</h3>
+      <ol>
+        <li>选择一个或多个来源文件或文件夹，也可以选择 SD 卡或外置硬盘中的素材。</li>
+        <li>选择目标文件夹或硬盘。</li>
+        <li>开始复制，查看文件数量、总体进度、实时速度和预计剩余时间。</li>
+        <li>等待 SHA-256 校验完成，再断开来源盘或目标盘。</li>
+      </ol>
+
+      <h3>安全推出来源盘</h3>
+      <p>当来源是可移动磁盘时，可以开启“校验完成后推出来源”。只有复制和校验都成功完成后，VeloCopy 才会请求系统安全推出该磁盘。</p>
+
+      <h3>目标文件冲突</h3>
+      <p>如果目标位置存在同名但内容不同的文件，VeloCopy 会停止任务，而不会静默覆盖。请处理目标文件后重新开始。</p>
+
+      <h3>联系支持</h3>
+      <p class="note">请发送邮件至 <a href="mailto:fengqve@qq.com">fengqve@qq.com</a>，并附上 VeloCopy 版本与构建号、macOS 版本、Mac 型号、来源盘和目标盘类型、出现问题的页面及复现步骤。除非确有必要且适合分享，请不要附上私人文件。</p>
+    </section>
+
+    <section id="privacy-zh">
+      <h2>中文隐私政策</h2>
+      <p class="effective">生效日期：2026 年 9 月 21 日</p>
+      <p>VeloCopy 不包含账号、广告 SDK、分析 SDK、追踪 SDK，也没有接收用户数据的 VeloCopy 自有后台。</p>
+
+      <h3>文件与文件夹访问</h3>
+      <p>VeloCopy 只访问你明确选择，或通过受支持的 Finder 操作交给它的文件、文件夹和可移动磁盘。这些访问只用于执行复制、校验目标文件、显示文件信息，以及在你启用该选项后请求系统安全推出来源盘。</p>
+
+      <h3>保存在 Mac 上的数据</h3>
+      <p>VeloCopy 可能在本机保存完成 Finder 复制粘贴操作所需的安全作用域书签。这些书签用于识别用户选择的文件位置，只保存在 App 的本地存储中，不会上传。</p>
+
+      <h3>数据收集</h3>
+      <p>VeloCopy 不会收集、传输、出售或分享你的文件内容、文件名、文件夹路径、复制活动或个人信息。复制和 SHA-256 校验均在你的 Mac 本机完成。</p>
+
+      <h3>你的控制</h3>
+      <p>所有来源和目标都由你选择。你可以取消进行中的复制，在 App 报告可以安全断开后拔出磁盘，并可通过删除 VeloCopy 移除其本地 App 数据。</p>
+
+      <h3>联系我们</h3>
+      <p>隐私问题请联系 <a href="mailto:fengqve@qq.com">fengqve@qq.com</a>。</p>
+    </section>
+  </main>
+</body>
+</html>
